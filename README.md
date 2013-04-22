@@ -1,5 +1,5 @@
 #public_ip
-***Provide the public ip address HTTP***
+***Return the HTTP client ip address (public ip) via HTTP in different formats***
 
 This web application uses [Silex](http://silex.sensiolabs.org/) (The PHP micro-framework based on the [Symfony2](http://symfony2.com) Components)
 
@@ -14,7 +14,10 @@ Silex works with PHP 5.3.3 or later.
 ##Usage
 
 ###TEXT
-The URLs exemple.com and exemple.com/text will return the public ip adresse in raw text.
+The URLs exemple.com and exemple.com/text will return the public ip address in raw text.
 
 ###JSON
-The URL exemple.com/json will return the public ip adresse in JSON.
+The URL exemple.com/json will return the public ip address in JSON.
+
+##Features to add
+- GeoIP in JSON
