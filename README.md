@@ -1,4 +1,4 @@
-#public_ip
+#php_public_ip
 ***Return the HTTP client ip address (public ip) via HTTP in different formats***
 
 This web application uses [Silex](http://silex.sensiolabs.org/) (The PHP micro-framework based on the [Symfony2](http://symfony2.com) Components)
@@ -20,4 +20,4 @@ The URLs exemple.com and exemple.com/text will return the public ip address in r
 The URL exemple.com/json will return the public ip address in JSON.
 
 ##Features to add
-- GeoIP in JSON
+- GeoIP location in JSON
